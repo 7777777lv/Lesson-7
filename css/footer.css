@@ -1,0 +1,52 @@
+footer {
+  background: #1391ce;
+}
+footer img {
+  margin-top: 32px;
+}
+.chapon {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 21px;
+  padding-bottom: 50px;
+}
+.chap p {
+  display: inline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  color: #302e2f;
+}
+.chap a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  color: blue;
+}
+.chap a:hover {
+  color: white;
+}
+.on p {
+  display: inline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  color: #302e2f;
+}
+.on a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 134.3%;
+    letter-spacing: 0.01em;
+    color: blue; 
+}
+.on a:hover {
+    color: white;
+}

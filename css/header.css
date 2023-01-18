@@ -1,0 +1,105 @@
+.header {
+  background: rgba(19, 145, 206, 0.7);
+  padding-top: 41px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logofruit {
+  display: flex;
+}
+.logofruit p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24.6829px;
+  line-height: 29px;
+  color: #25468a;
+  padding-top: 12px;
+}
+.navigations {
+  display: flex;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+.links a {
+  padding: 0px 32px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #25468a;
+}
+.links a:hover {
+  color: white;
+}
+.navigations button {
+  width: 116px;
+  height: 37px;
+  background: #ffffff;
+  border-radius: 24px;
+  border: none;
+}
+.navigations button a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #14274c;
+}
+.comp {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.comp-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.comp-content h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 82px;
+  color: #25468a;
+}
+.p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  color: #3b4a6b;
+}
+.pp {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #3b4a6b;
+}
+.comp-content button {
+  width: 250px;
+  height: 51px;
+  background: #f7ba0e;
+  border-radius: 26px;
+  border: none;
+}
+.comp-content button a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  color: #3b4a6b;
+}
+@media (max-width: 1200px) {
+  .navigations {
+    display: none;
+  }
+}

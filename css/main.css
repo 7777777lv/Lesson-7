@@ -1,0 +1,188 @@
+@import url(./common.css);
+@import url(./header.css);
+@import url(./footer.css);
+
+main {
+  background: #e5e5e5;
+}
+.kota-buttonla {
+  display: flex;
+  gap: 32px;
+  padding-top: 176px;
+}
+.kota-buttonla button {
+  width: 352px;
+  height: 189px;
+  left: 160px;
+  top: 819px;
+  background: #1391ce;
+  border: none;
+  box-shadow: 0px 10px 15px rgba(31, 100, 133, 0.1),
+    0px 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+.kota-buttonla button:hover {
+  background-color: darkblue;
+}
+.kota-buttonla button a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.pla {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 63px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 121.3%;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+}
+.pla img {
+  width: 160px;
+  height: 8px;
+  margin-left: 479px;
+  margin-top: 15px;
+}
+.quyon-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 112px;
+  margin-top: 96px;
+}
+.quyon {
+  margin-left: -25px;
+}
+.quyon-content h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #25468a;
+}
+.quyon-content h3 {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+}
+.quyon-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 134.3%;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
+.nastroyka-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 96px;
+  margin-top: 128px;
+}
+.nastroyka-content2 ul {
+  list-style-image: url(https://sitesss.netlify.app/images/pt.png);
+}
+.nastroyka-content h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #25468a;
+}
+.nastroyka-content h4 {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+}
+.nastroyka-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 134.3%;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
+.nastroyka-content2 h3 {
+  margin-top: 24px;
+  margin-bottom: 18px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 134.3%;
+  letter-spacing: 0.02em;
+  color: #1391ce;
+}
+.nastroyka-content2 li {
+  padding: 8px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
+.nastroyka-img {
+  margin-right: -25px;
+}
+.last-section {
+  display: flex;
+  margin-top: 128px;
+  gap: 112px;
+}
+.last-content ul {
+  list-style-image: url(https://sitesss.netlify.app/images/pt.png);
+}
+.last-img {
+  margin-left: -25px;
+}
+.last-content h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #25468a;
+}
+.last-content h3 {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+}
+.last-content li {
+  padding: 8px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
